@@ -8,7 +8,7 @@ class Scoreboard(Turtle):
     def __init__(self):
         super().__init__()
         self.score = 0
-        with open("C:/Users/Kanoszi/Desktop/OOP_Snake/score.txt", 'r') as file:
+        with open("C:/Users/Kanoszi/Desktop/OOP_Snake/score.txt", 'r') as file: #enter your path with .txt file to read the best score
             self.highest_score = int(file.read())
         self.color('white')
         self.penup()
@@ -32,7 +32,7 @@ class Scoreboard(Turtle):
     def reset(self):
         if self.score > self.highest_score:
             self.highest_score = self.score
-            with open("C:/Users/Kanoszi/Desktop/OOP_Snake/score.txt", 'w') as file:
+            with open("C:/Users/Kanoszi/Desktop/OOP_Snake/score.txt", 'w') as file: #enter your path with .txt file to save the score
                 file.write(str(self.highest_score))
         self.score = 0
         self.update_scoreboard()

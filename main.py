@@ -4,11 +4,11 @@ from snake import Snake
 from food import Food
 from scoreboard import Scoreboard
 from frame import Frame
-from pygame import mixer
+from pygame import mixer #Comment lines 7-11 if you don't want the voice of eating Snake.
 
 mixer.init()
-mixer.music.load('sound.mp3') #you need to change the path
-mixer.music.set_volume(0.2)
+mixer.music.load('sound.mp3') 
+mixer.music.set_volume(0.2) 
 
 screen = Screen()
 screen.setup(width=600, height=600)
