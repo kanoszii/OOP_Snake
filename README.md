@@ -1,16 +1,20 @@
 # ABOUT THE PROJECT:
 This is my first object-oriented project written in Python.  
 Designed as an attempt to recreate the popular game Snake.   
+__REQUIRED__  
+You should update the path for saving the best score.  
+To accomplish this, navigate to the scoreboard.py file and modify lines 11 and 35 (they are commented).  
 
 _OPTIONAL:_  
 _You can adjust the path to the sound that is played when the snake "eats."_  
 _(if you don't need it just comment lines 7-11)_  
 
 
-## CONTROLS
+## Controls
 * W - Up
 * A - left
 * S - Down
 * D - right  
 
-__To start the game, you should run the "main.py"__
+## How to start the game?  
+To start the game, you should run the "main.py"
