@@ -18,4 +18,4 @@ _(if you don't need it just comment lines 7-11)_
 * D - right  
 
 ## How to start the game?  
-To start the game, you should run the "main.py"
+To begin the game, you should execute the "main.py" file.
