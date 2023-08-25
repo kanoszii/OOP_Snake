@@ -7,7 +7,7 @@ from frame import Frame
 from pygame import mixer
 
 mixer.init()
-mixer.music.load('C:\Users\Kanoszi\Desktop\Python_Projects\sound.mp3')
+mixer.music.load('C:\Users\Kanoszi\Desktop\Python_Projects\sound.mp3') #you need to change the path
 mixer.music.set_volume(0.2)
 
 screen = Screen()
