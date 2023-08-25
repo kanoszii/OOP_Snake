@@ -1,6 +1,7 @@
 # ABOUT THE PROJECT:
 This is my first object-oriented project written in Python.  
 Designed as an attempt to recreate the popular game Snake.   
+
 __REQUIRED__  
 You should update the path for saving the best score.  
 To accomplish this, navigate to the scoreboard.py file and modify lines 11 and 35 (they are commented).  
