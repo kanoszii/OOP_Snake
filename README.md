@@ -1,4 +1,4 @@
-## ABOUT THE PROJECT:
+# ABOUT THE PROJECT:
 This is my first object-oriented project written in Python.  
 Designed as an attempt to recreate the popular game Snake.   
 
