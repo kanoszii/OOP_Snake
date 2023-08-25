@@ -14,4 +14,4 @@ You can adjust the path to the sound that is played when the snake "eats."
 * S - Down
 * D - right  
 
-__To start the game, you should run the "Main.py__
+__To start the game, you should run the "main.py"__
